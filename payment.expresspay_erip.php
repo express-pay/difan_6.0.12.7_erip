@@ -38,7 +38,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if ($isUseSignature) {
 
-        $secretWord = $pay["params"]['secretWord'];
+        $secretWord = $pay["params"]['secretWordForNotif'];
 
         if ($signature == computeSignature($json, $secretWord)) {
             if ($data['CmdType'] == '3' && $data['Status'] == '3' || $data['Status'] == '6') {

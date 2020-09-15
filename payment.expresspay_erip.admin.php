@@ -37,7 +37,7 @@ class Payment_expresspay_erip_admin
 				),
 				'serviceId' => array(
 					'name' => 'Номер услуги',
-					'help' => 'Поле "Номер услуги в сервисе "Экспресс платежи" является обязательным.'
+					'help' => 'Можно узнать в личном кабинете сервиса "Экспресс Платежи" в настройках услуги.'
 				),
 				'token' => array(
 					'name' => 'Токен',
@@ -62,7 +62,7 @@ class Payment_expresspay_erip_admin
 				),
 				'secretWordForNotif' => 'Секретное слово для уведомлений',
 				'showQrCode' => array(
-					'name' => 'Показывать QR код для оплаты',
+					'name' => 'Показывать Qr-код',
 					'type' => 'checkbox',
 				),
 				'pathToErip' => 'Путь по ветке ЕРИП',
