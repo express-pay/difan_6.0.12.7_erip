@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Формирует данные для формы платежной системы Яндекс.Касса
+ * Формирует данные для формы сервиса Эксрпесс Платежи
  * 
  * @package    DIAFAN.CMS
  * @author     diafan.ru
@@ -23,7 +23,7 @@ if (!defined('DIAFAN')) {
 class Payment_expresspay_erip_model extends Diafan
 {
 	/**
-	 * Формирует данные для формы платежной системы "YandexMoney"
+	 * Формирует данные для формы сервиса Эксрпесс Платежи
 	 * 
 	 * @param array $params настройки платежной системы
 	 * @param array $pay данные о платеже
